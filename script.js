@@ -65,7 +65,7 @@ function tweet(result,nowPrice,maxPrice) {
 	text=encodeURI(text)
 	text2=encodeURI(text2)
 	let hashtag = encodeURI("駄菓子100円ガチャ")
-	let url = encodeURI("https://trimscash.github.io/DagashiGacha");
+	let url = encodeURI("trimscash.github.io/DagashiGacha");
 	let encoded = "https://twitter.com/intent/tweet?&text=" + text + "%20%23"+hashtag+"%20" + text2 + "&url="+url;
 	$(".tweetButton").attr("href", encoded);
 }
