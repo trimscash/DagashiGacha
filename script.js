@@ -56,12 +56,12 @@ function writeResult(result, nowPrice) {
 }
 
 function tweet(result,nowPrice,maxPrice) {
-	let text=maxPrice+"円で駄菓子ガチャを引きました!!\n"
+	let text=maxPrice+"円で#駄菓子ガチャを引きました!!\n"
 	result.forEach(e=>{
 		text+=(e.name+" "+e.price+"円\n")
 	})
 	text+="合計: "+nowPrice+"円"
-	let url = "https://twitter.com/intent/tweet?&text=" + text + "&hashtags=" + "駄菓子100円ガチャ" + "&url=https://trimscash.github.io/DagashiGacha/index.html";
+	let url = "https://twitter.com/intent/tweet?&text=" + text + "&url=https://trimscash.github.io/DagashiGacha";
 	let encoded = encodeURI(url);
 	$(".tweetButton").attr("href", encoded);
 }
