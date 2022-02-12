@@ -1,0 +1,17 @@
+{
+  "name": "駄菓子ガチャ",
+  "short_name": "駄菓子ガチャ",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "駄菓子をガチャガチャできます",
+  "icons": [{
+    "src": "./Icon/midasi.png",
+    "sizes": "144x144",
+    "type": "image/png"
+  }],
+  "related_applications": [{
+    "platform": "play",
+    "url": "https://trimscash.github.io/DagashiGacha/"
+  }]
+}

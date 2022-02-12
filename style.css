@@ -67,13 +67,13 @@ body{
 	border-radius: 4px;
 	box-shadow: 0 3px 0 #6d5524;
 	background-color:#d6c197;
-	width:250px;
-	height:60px;
+	width:40vw;
+	height:5vh;
 	font-family: 'Noto Sans JP',
 	sans-serif;
 	margin:10px;
 	font-weight: 900;
-	font-size: 30px;
+	font-size: 2vh;
 }
 
 .results{
@@ -86,20 +86,21 @@ body{
 .result {
 	box-shadow:1px 4px 4px #ebd19e;
 	position: relative;
-	min-height:100px;
-	width:500px;
+	min-height:10vh;
+	width:50vh;
+	max-width:95vw;
 	margin:7px;
 	background-color: #fdeed0;
 	text-align: center;
 }
 
 .name{
-	font-size:30px;
-	margin:5px;
+	font-size:3vh;
+	margin:1vh 0;
 }
 .price{
 	position: absolute;
-	font-size:20px;
+	font-size:2vh;
 	left:10px;
 	bottom:10px;
 }
@@ -124,15 +125,15 @@ body{
 
 .btn{
 	position:absolute;
-	bottom:2vh;
+	bottom:3vh;
 	right:2vw;
 }
 
 .tweetButtonImage{
 	margin:0;
-	width:50px;
+	width:4vh;
 	position:relative;
-	bottom:-15px;
+	bottom:-1vh;
 }
 
 a {
