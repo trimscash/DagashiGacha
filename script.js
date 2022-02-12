@@ -17,7 +17,7 @@ function makeDagasiList(maxPrice, dagasiList) {
 
 function choiceOne(dagasiList) {
 	let a = getRand(0, dagasiList.length)
-	console.log(a)
+// 	console.log(a)
 	return dagasiList[a]
 }
 
@@ -80,8 +80,8 @@ function main() {
 		dagasiList = makeDagasiList(maxPrice, dagasiList)
 		while (dagasiList.length != 0) {
 			dagasi = choiceOne(dagasiList)
-			console.log(dagasi)
-			console.log(dagasiList)
+// 			console.log(dagasi)
+// 			console.log(dagasiList)
 			result.push(dagasi)
 			nowPrice += dagasi.price
 			nowMaxPrice = maxPrice - nowPrice
