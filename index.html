@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@uesuginiguseu">
+	<meta name="twitter:creater" content="@uesuginiguseu">
+	<meta property="og:url" content="https://trimscash.github.io/DagashiGacha/index.html">
+	<meta property="og:title" content="駄菓子100円ガチャ" >
+	<meta property="og:description" content="100円駄菓子ガチャガチャ--10円～の値段で駄菓子ガチャが引けます" >
+	<meta property="og:image" content="./Icon/icon.png" >
+
+	<meta name="description" content="駄菓子が引ける仮想的なガチャガチャです，10円～の値段で駄菓子ガチャが引けます，あなたも是非ガチャろう!!">
+
+	<link rel="icon" type="image/png" href="./Icon/icon.png">
+	<meta charset="utf-8">
+	<title>駄菓子100円ガチャ</title>
+	<link href="./style.css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+			crossorigin="anonymous"></script>
+	<script src="./script.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class="padding"></div>
+
+
+	<div id="header">
+		<div>駄菓子<br><input type="number" class="priceSet" value="100" step="10" min="10" max="9999">円ガチャ</div>
+	</div>
+
+	<div id="main">
+		<div class="results"></div>
+		<button class="doGtya firstbtn" type="button" onclick="main()">ガチャを回す</button>
+	</div>
+
+	<div hidden id="footer">
+		<div class="resultInfo"></div>
+		<div class="btn">
+			<button class="doGtya" type="button" onclick="main()">ガチャを回す</button>
+			<a class="tweetButton" href="./"><img class="tweetButtonImage" src="./Icon/circleTweet.png"></a>
+		</div>
+		<div class="cash"><a href="https://github.com/trimscash/DagashiGacha/">ソースコード/</a><a
+				href="https://twitter.com/uesuginiguseu">@uesuginiguseu</a><span style="font-size:1vh;">←誤り等</span></div>
+	</div>
+	<div class="firstcash"><a href="https://github.com/trimscash/DagashiGacha/">ソースコード/</a><a
+			href="https://twitter.com/uesuginiguseu">@uesuginiguseu</a></div>
+</body>
+</html>

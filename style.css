@@ -1,0 +1,156 @@
+html{
+	font-family: 'Noto Sans JP',
+	sans-serif;
+	font-weight: 700;
+	color: #503c14;
+}
+
+body{
+	background-color: #fff9ec;
+	margin:0;
+}
+
+
+
+.padding{
+	margin-top:30vh;
+}
+
+
+.priceSet {
+	/* text-decoration: underline; */
+	font-family: 'Noto Sans JP',
+		sans-serif;
+		font-weight: 700;
+	color: #503c14;
+	text-align: center;
+	margin: 2px;
+	font-size:3vh;
+	max-width:20vh;
+	width:8.5vh;
+	background-color: #fff9ec;
+	border-color: #d6c197;
+	border-radius: 0px;
+	border:none;
+	border-bottom:2px dashed;
+}
+
+.priceSet::-webkit-inner-spin-button,
+.priceSet::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+	-moz-appearance: textfield;
+}
+
+#header{
+	padding:10px;
+	height:7vh;
+	text-align: center;
+	line-height: 100%;
+	font-size:3vh;
+
+}
+
+#main{
+	max-height:78vh;
+	overflow-y: auto;
+	display:flex;
+	margin:0 auto;
+	flex-direction: column;
+	/* justify-content: center; */
+	align-items: center;
+}
+
+.doGtya{
+	color: #503c14;
+	border: 0;
+	border-radius: 4px;
+	box-shadow: 0 3px 0 #6d5524;
+	background-color:#d6c197;
+	width:250px;
+	height:60px;
+	font-family: 'Noto Sans JP',
+	sans-serif;
+	margin:10px;
+	font-weight: 900;
+	font-size: 30px;
+}
+
+.results{
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.result {
+	box-shadow:1px 4px 4px #ebd19e;
+	position: relative;
+	min-height:100px;
+	width:500px;
+	margin:7px;
+	background-color: #fdeed0;
+	text-align: center;
+}
+
+.name{
+	font-size:30px;
+	margin:5px;
+}
+.price{
+	position: absolute;
+	font-size:20px;
+	left:10px;
+	bottom:10px;
+}
+.result img{
+	height:120px; 
+}
+
+
+#footer{
+	background-color:#fff9ec;
+	box-shadow: -1px 0 3px #dfb562;
+	position:fixed;
+	width:100%;
+	height:13vh;
+	bottom: 0;
+}
+
+.resultInfo{
+	margin:10px 45px;
+	font-size: 3vh;
+}
+
+.btn{
+	position:absolute;
+	bottom:2vh;
+	right:2vw;
+}
+
+.tweetButtonImage{
+	margin:0;
+	width:50px;
+	position:relative;
+	bottom:-15px;
+}
+
+a {
+	color:#503c14;
+	text-decoration: none;
+}
+
+.cash {
+	color:#503c14;
+	text-decoration: none;
+	position: absolute;
+	font-size: 2vh;
+	left: calc(50vw - 14vh);
+	bottom: 1px;
+}
+
+.firstcash {
+	color:#503c14;
+	text-decoration: none;
+	text-align: center;
+}
