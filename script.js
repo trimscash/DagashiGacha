@@ -1,5 +1,4 @@
 
-$(document).ready(function(){
 //min以上max未満　での乱数
 function getRand(min, max) {//maxに3minに0を指定した場合出てくるのは0~2の三つの値です
 	return (Math.floor(Math.random() * (max - min))) + min
@@ -98,4 +97,5 @@ function main() {
 		writeResult(result, nowPrice)
 	})
 }
-})
+
+$(document).ready()
