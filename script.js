@@ -1,6 +1,5 @@
 
-//min以上max未満　での乱数
-function getRand(min, max) {//maxに3minに0を指定した場合出てくるのは0~2の三つの値です
+function getRand(min, max) {
 	return (Math.floor(Math.random() * (max - min))) + min
 }
 
@@ -17,11 +16,10 @@ function makeDagasiList(maxPrice, dagasiList) {
 
 function choiceOne(dagasiList) {
 	let a = getRand(0, dagasiList.length)
-// 	console.log(a)
 	return dagasiList[a]
 }
 
-function editHTML(){//こんな関数を作っているのはなんか気持ち的にmainにいれるの嫌だったから
+function editHTML(){
 		let header = $("#header")
 		header.css({"box-shadow":"1px 0 3px #dfb562"})
 
@@ -75,7 +73,6 @@ function main() {
 	.then(res => res.json())
 	.then(dagasiList =>{
 		let inputPrice=$(".priceSet")
-		// console.log(dagasiList[3])
 		let result = []
 		let dagasi
 		let nowPrice = 0
@@ -84,8 +81,6 @@ function main() {
 		dagasiList = makeDagasiList(maxPrice, dagasiList)
 		while (dagasiList.length != 0) {
 			dagasi = choiceOne(dagasiList)
-// 			console.log(dagasi)
-// 			console.log(dagasiList)
 			result.push(dagasi)
 			nowPrice += dagasi.price
 			nowMaxPrice = maxPrice - nowPrice
